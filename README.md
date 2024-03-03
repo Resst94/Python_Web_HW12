@@ -6,7 +6,7 @@
 
 ## General requirements
 
--During registration, if the user already exists with this email, the server will return an HTTP 409 Conflict error;
+During registration, if the user already exists with this email, the server will return an HTTP 409 Conflict error;
 
 - The server hashes the password and does not store it in the database in clear text;
 - In case of successful user registration, the server should return the HTTP response status 201 Created and the new user's data;
